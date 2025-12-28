@@ -1,8 +1,18 @@
+from fastapi.middleware.cors import CORSMiddleware
+
 from fastapi import FastAPI, Query
 import pickle
 import pandas as pd
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],   # allow all origins (safe for demo)
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 # Load model once at startup
 with open("ets_yellowstone_model.pkl", "rb") as f:
