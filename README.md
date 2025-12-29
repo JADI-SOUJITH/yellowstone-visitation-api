@@ -3,7 +3,7 @@
 This API is consumed by a live web application.
 
 - **Frontend Repository:**  
-  https://github.com/SOUJITH-JADI/yellowstone-frontend
+  [https://github.com/SOUJITH-JADI/yellowstone-frontend](https://github.com/JADI-SOUJITH/yellowstone-frontend)
 - **Live Frontend (Netlify):**  
   https://national-park-forecasting.netlify.app
 
